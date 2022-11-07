@@ -1,0 +1,78 @@
+body
+{
+    background-color: grey;
+    margin: 0px;
+}
+.title
+{
+    margin-top: 20px;
+    padding: 5px;
+    width: 40%;
+    font: 40px verdana;
+    background-color: white;
+    color: gray;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: grey;
+}
+.imagen_venta
+{
+    transition: all .75s;
+    width: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+
+}
+.imagen_venta:hover
+{
+    transition: all .75s;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    transform: scale(1.3);
+}
+.producto
+{
+    transition: all .75s;
+    padding: 20px;
+    width:50ch;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color: grey;
+
+}
+.producto:hover
+{
+    transition: all .75s;
+    padding: 20px;
+    width:50ch;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+background-color: white;
+
+}
+h2
+{
+    font: 20px verdana;
+}
+.comprar
+{
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    width: auto;
+    color: white;
+    background-color: orange;
+}
+.comprar:hover
+{
+    border-style: solid;
+    border-color: orange;
+    border-radius: 15px;
+    width: auto;
+    color: orange;
+    background-color: white;
+}
